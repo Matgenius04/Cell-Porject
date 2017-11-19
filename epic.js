@@ -8,7 +8,7 @@ function draw() {
   background(255);
   fill(0);
   textSize(16);
-  text(infoey, 10, 30);
+  text(infoey, 10, 30, 600, 400);
 }
 
 function showInfo(type) {
@@ -22,5 +22,7 @@ function showInfo(type) {
     infoey = 'Rough ER: This is the organelle that holds the ribosomes.';
   } else if (type === 'smooth-er') {
     infoey = 'Smooth ER: This is the organelle that produces lipids.';
+  } else if (type === 'golgi') {
+    infoey = 'Golgi Body: This is the organelle that assembles proteins, lipids, and other chemicals to make useful stuff and transport it throughout the cell.'
   }
 }
