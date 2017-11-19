@@ -6,7 +6,6 @@
   width: 100%;
 }
 
-
 .navbar a {
   float: left;
   display: block;
@@ -17,12 +16,13 @@
 }
 
 #svg8 {
-  width:70%;
-  height:70%;
+  width: 70%;
+  height: 70%;
 }
 
-ellipse, path {
+ellipse,
+path {
   transform: translate(-3em, -4em);
-  width:50%;
-  height:50%;
+  width: 50%;
+  height: 50%;
 }
