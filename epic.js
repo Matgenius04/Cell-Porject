@@ -20,5 +20,7 @@ function showInfo(type) {
     infoey = 'Ribosomes: These are the organelles that make proteins.';
   } else if (type === 'rough-er') {
     infoey = 'Rough ER: This is the organelle that holds the ribosomes.';
+  } else if (type === 'smooth-er') {
+    infoey = 'Smooth ER: This is the organelle that produces lipids.';
   }
 }
