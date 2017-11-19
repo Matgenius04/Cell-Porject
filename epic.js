@@ -32,5 +32,7 @@ function showInfo(type) {
     infoey = 'Mitochondria: This is the organelle that turns cell food into energy.';
   } else if (type === 'memb') {
     infoey = 'Cell Membrane: This is the organelle that holds all the organelles inside the cell.'
+  } else if (type === 'cyto') {
+    infoey = 'Cytoplasm: the stuff that is inside the cell that all the organelles float in.'
   }
 }
