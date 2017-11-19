@@ -17,15 +17,12 @@
 }
 
 #svg8 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   width:70%;
   height:70%;
 }
 
 ellipse, path {
-  transform: translate(-1em, 0em);
+  transform: translate(-3em, -4em);
   width:50%;
   height:50%;
 }
