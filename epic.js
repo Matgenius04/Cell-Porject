@@ -25,6 +25,8 @@ function showInfo(type) {
   } else if (type === 'golgi') {
     infoey = 'Golgi Body: This is the organelle that assembles proteins, lipids, and other chemicals to make useful stuff and transport it throughout the cell.'
   } else if (type === 'vacuole') {
-    infoey = 'Vacuole: This is the organelle that stores water and cell food.'
+    infoey = 'Vacuole: This is the organelle that stores water and cell food.';
+  } else if (type === 'lysosome') {
+    infoey = 'Lysosomes: This is the organelle that disposes of broken cell parts or turns them into cell food.';
   }
 }
