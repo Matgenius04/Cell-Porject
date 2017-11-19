@@ -7,7 +7,8 @@ let infoey = '';
 function draw() {
   background(255);
   fill(0);
-  text(infoey, 10, 10);
+  textSize(16);
+  text(infoey, 10, 30);
 }
 
 function showInfo(type) {
