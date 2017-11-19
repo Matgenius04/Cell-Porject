@@ -17,10 +17,15 @@
 }
 
 #svg8 {
+<<<<<<< HEAD
   width:70%;
   height:70%;
 }
 
 ellipse, path {
   transform: translate(-1em, 0em);
+=======
+  width:50%;
+  height:50%;
+>>>>>>> parent of 576d256... Merge branch 'master' of https://github.com/Matgenius04/Cell-Porject
 }
