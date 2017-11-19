@@ -2,15 +2,16 @@ function setup() {
   createCanvas(600, 400).position(700, 100);
 }
 
-let text;
+let infoey = '';
 
 function draw() {
   background(255);
-  text(text)
+  fill(0);
+  text(infoey, 10, 10);
 }
 
 function showInfo(type) {
   if (type === 'nucleus') {
-    text = 'Nucleus: This is the organelle that stores the genetic material for a cell.'
+    infoey = 'Nucleus: This is the organelle that stores the genetic material for a cell.'
   }
 }
