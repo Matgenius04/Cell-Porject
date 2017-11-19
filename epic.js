@@ -29,6 +29,8 @@ function showInfo(type) {
   } else if (type === 'lysosome') {
     infoey = 'Lysosomes: This is the organelle that disposes of broken cell parts or turns them into cell food.';
   } else if (type === 'mito') {
-    infoey = 'Mitochondria: the organelle that turns cell food into energy.';
+    infoey = 'Mitochondria: This is the organelle that turns cell food into energy.';
+  } else if (type === 'memb') {
+    infoey = 'Cell Membrane: This is the organelle that holds all the organelles inside the cell.'
   }
 }
