@@ -22,5 +22,5 @@
 }
 
 ellipse, path {
-  
+  transform: translate(-1em, 0em);
 }
