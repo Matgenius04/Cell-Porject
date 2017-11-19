@@ -13,5 +13,7 @@ function draw() {
 function showInfo(type) {
   if (type === 'nucleus') {
     infoey = 'Nucleus: This is the organelle that stores the genetic material for a cell.'
+  } else if (type === 'nucleolus') {
+    infoey = 'Nucleolus: this is the organelle that creates Ribosomes';
   }
 }
