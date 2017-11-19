@@ -14,6 +14,8 @@ function showInfo(type) {
   if (type === 'nucleus') {
     infoey = 'Nucleus: This is the organelle that stores the genetic material for a cell.'
   } else if (type === 'nucleolus') {
-    infoey = 'Nucleolus: this is the organelle that creates Ribosomes';
+    infoey = 'Nucleolus: This is the organelle that creates Ribosomes';
+  } else if (type === 'ribosomes') {
+    infoey = 'Ribosomes: These are the organelles that make proteins.';
   }
 }
