@@ -28,5 +28,7 @@ function showInfo(type) {
     infoey = 'Vacuole: This is the organelle that stores water and cell food.';
   } else if (type === 'lysosome') {
     infoey = 'Lysosomes: This is the organelle that disposes of broken cell parts or turns them into cell food.';
+  } else if (type === 'mito') {
+    infoey = 'Mitochondria: the organelle that turns cell food into energy.';
   }
 }
