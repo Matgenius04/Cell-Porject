@@ -7,32 +7,32 @@ let infoey = '';
 function draw() {
   background(255);
   fill(0);
-  textSize(16);
+  textSize(24);
   text(infoey, 10, 30, 600, 400);
 }
 
 function showInfo(type) {
   if (type === 'nucleus') {
-    infoey = 'Nucleus: This is the organelle that stores the genetic material for a cell.'
+    infoey = 'Nucleus - This organelle communicates with surrounding cytosol and contains the DNA responsible for providing the cell with its characteristics.'
   } else if (type === 'nucleolus') {
-    infoey = 'Nucleolus: This is the organelle that creates Ribosomes';
+    infoey = 'Nucleolus - This organelle produces ribosomes is a prominent structure.';
   } else if (type === 'ribosomes') {
-    infoey = 'Ribosomes: These are the organelles that make proteins.';
+    infoey = 'ribosomes-Packets of RNA and protein that are critical in protein synthesis. It also structurally has a large subunit and a small subunit.';
   } else if (type === 'rough-er') {
-    infoey = 'Rough ER: This is the organelle that holds the ribosomes.';
+    infoey = 'rough endoplasmic reticulum-Similar to a smooth endoplasmic reticulum, but appears pebbled by electron microscopy. The ribosomes on its surface and proteins on these ribosomes collect for transport.';
   } else if (type === 'smooth-er') {
-    infoey = 'Smooth ER: This is the organelle that produces lipids.';
+    infoey = 'smooth endoplasmic reticulum-A vast network of membrane-bound vesicles that appear smooth by electron microscopy. Plays a role in lipid and steroid hormone synthesis and others depending on the cell.';
   } else if (type === 'golgi') {
-    infoey = 'Golgi Body: This is the organelle that assembles proteins, lipids, and other chemicals to make useful stuff and transport it throughout the cell.'
+    infoey = 'Golgi apparatus-A membrane-bound structure with a single membrane that packages macromolecules for transport.'
   } else if (type === 'vacuole') {
-    infoey = 'Vacuole: This is the organelle that stores water and cell food.';
+    infoey = 'vacuole-A membrane-bound sac which plays a role in intracellular digestion and release of cellular waste products.';
   } else if (type === 'lysosome') {
-    infoey = 'Lysosomes: This is the organelle that disposes of broken cell parts or turns them into cell food.';
+    infoey = 'lysosome-This contains hydrolytic enzymes for intracellular digestion.';
   } else if (type === 'mito') {
-    infoey = 'Mitochondria: This is the organelle that turns cell food into energy.';
+    infoey = 'mitochondria-Provides energy for cell and is the size of bacteria. It might have different shapes depending on the cell.';
   } else if (type === 'memb') {
-    infoey = 'Cell Membrane: This is the organelle that holds all the organelles inside the cell.'
+    infoey = 'cell membrane-A double layer of phospholipids with exposed heads that are water loving and hidden tails that are water fearing.';
   } else if (type === 'cyto') {
-    infoey = 'Cytoplasm: the stuff that is inside the cell that all the organelles float in.'
+    infoey = 'cytoplasm-The soup where organelles reside. This is mostly water, but full of proteins that control cell metabolism.';
   }
 }
