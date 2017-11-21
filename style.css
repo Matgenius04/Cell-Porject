@@ -26,3 +26,9 @@ path {
   width: 50%;
   height: 50%;
 }
+
+h1 {
+	font-family: "Arial", sans-serif;
+	font-style: bold;
+	font-size: 45px;
+}
